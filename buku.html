@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Peminjaman Buku</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+<header>
+<h1>Peminjaman Buku</h1>
+</header>
+
+<nav>
+<a href="index.html">Beranda</a>
+<a href="buku.html">Peminjaman Buku</a>
+<a href="kontak.html">Kontak</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>Daftar Buku Perpustakaan</h2>
+
+<table>
+<tr>
+<th>Nama Buku</th>
+<th>Sinopsis</th>
+<th>Penulis</th>
+<th>Tanggal Rilis</th>
+</tr>
+
+<tr>
+<td>Belajar HTML</td>
+<td>Buku pengenalan dasar HTML untuk membuat struktur website.</td>
+<td>Andi Pratama</td>
+<td>12 Januari 2020</td>
+</tr>
+
+<tr>
+<td>Dasar CSS</td>
+<td>Membahas cara mempercantik tampilan website menggunakan CSS.</td>
+<td>Siti Rahma</td>
+<td>20 Mei 2021</td>
+</tr>
+
+<tr>
+<td>Javascript Pemula</td>
+<td>Panduan belajar Javascript untuk membuat website interaktif.</td>
+<td>Budi Santoso</td>
+<td>10 Februari 2022</td>
+</tr>
+
+<tr>
+<td>Python untuk Pemula</td>
+<td>Pengenalan bahasa pemrograman Python untuk pemula.</td>
+<td>Dedi Kurniawan</td>
+<td>15 Juli 2023</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+<h2>Form Peminjaman Buku</h2>
+
+<form>
+
+<label>Nama</label>
+<input type="text">
+
+<label>Pilih Buku</label>
+<select>
+<option>Belajar HTML</option>
+<option>Dasar CSS</option>
+<option>Javascript Pemula</option>
+<option>Python untuk Pemula</option>
+</select>
+
+<label>Tanggal Pinjam</label>
+<input type="date">
+
+<button type="submit">Pinjam Buku</button>
+
+</form>
+
+</div>
+
+</div>
+
+</body>
+</html>
